@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -23,7 +24,7 @@ body {
     height: 15vh;
     width: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: rgba(168, 168, 168, 0.74);
     border-radius: 0 0 60px 60px;
@@ -32,6 +33,8 @@ body {
 
 .heading_text {
     font-size: 30px;
+    flex: 1;
+    text-align: center;
 }
 
 .slot_box_inner {
@@ -52,4 +55,24 @@ body {
     border-radius: 10px;
     height: 50vh;
     width: 50%
+}
+
+.container_watch {
+    display: flex;
+    justify-content: center;
+}
+
+.watch_box {
+    flex-direction: column;
+    padding-right: 30px;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.watch_box_heading {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.511);
+}
+
+.watch_box_time {
+    font-size: 25px;
 }

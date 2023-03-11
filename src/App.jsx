@@ -23,6 +23,9 @@ export default function App() {
   return (
     <>
       <Heading />
+      {/* <div className="container_watch">
+      <Watch/>    
+      </div> */}
       <div className="container">
         <div className="slot_box">
           <Slots x={emojies[0].x} y={emojies[0].y} z={emojies[0].z} />
